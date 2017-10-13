@@ -4,20 +4,20 @@ import com.badlogic.gdx.ApplicationAdapter;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.audio.Sound;
 import com.badlogic.gdx.graphics.Color;
-import com.badlogic.gdx.graphics.GL20;
+//import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-import com.badlogic.gdx.graphics.glutils.FloatFrameBuffer;
+//import com.badlogic.gdx.graphics.glutils.FloatFrameBuffer;
 import com.badlogic.gdx.graphics.glutils.ShapeRenderer;
 import com.badlogic.gdx.math.Circle;
 import com.badlogic.gdx.math.Intersector;
 import com.badlogic.gdx.math.Rectangle;
-import com.sun.org.apache.xpath.internal.operations.String;
+//import com.sun.org.apache.xpath.internal.operations.String;
 
 import java.util.Random;
 
-import static java.lang.Float.intBitsToFloat;
+//import static java.lang.Float.intBitsToFloat;
 
 public class flappybird extends ApplicationAdapter {
 	SpriteBatch batch;
@@ -128,7 +128,7 @@ public class flappybird extends ApplicationAdapter {
 		shapeRenderer.circle(birdCircle.x,birdCircle.y,birdCircle.radius);
 		shapeRenderer.rect(pipeUpRect.x,pipeUpRect.y,pipeUpRect.getWidth(),pipeUpRect.getHeight());
 		shapeRenderer.rect(pipeDownRect.x,pipeDownRect.y,pipeDownRect.getWidth(),pipeDownRect.getHeight());
-		shapeRenderer.end();*/
+		shapeRenderer.end();  */
 	}
 
 	@Override
